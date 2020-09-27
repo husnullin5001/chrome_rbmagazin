@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "rbmagazin",
+  "version": "0.1",
+  "description": "Show info",
+  "permissions": ["activeTab", "declarativeContent"],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.rbmagazin.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}

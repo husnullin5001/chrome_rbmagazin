@@ -1,0 +1,1 @@
+This chrome plug-in displays count of products in rbmagazin.com
